@@ -1,0 +1,124 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+
+body{
+    background: url() no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url("fundo.jpg");
+}
+
+header{
+    background: #d31a38;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+iframe {
+    box-align: center;
+    width: 640px;
+    height: 360px;
+}
+
+.container{
+    max-width: 800px;
+    margin:0 auto;
+}
+h2{
+    margin-bottom: 1rem;
+}
+
+.sobre-mim{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.sobre-informacoes{
+    flex: 1;
+}
+.sobre-informacoes h2{
+    margin-bottom: 0.5rem;
+}
+.sobre-informacoes p{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.hobby i{
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+}
+.michaelcera{
+    width: 100px;
+}
+.maryelizabeth{
+    width: 100px;
+}
+.kieran{
+    width: 100px;
+}
+.elenwong{
+    width: 100px;
+}
+.alisonpill{
+    width: 100px;
+}
+.markwebber{
+    width: 100px;
+}
+.johnnysimmons{
+    width: 100px;
+}
